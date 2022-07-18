@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONDAIAH</title>
+    <link rel="stylesheet" href="../css/fa/css/all.css">
+    <style>
+        :root{
+            --basiccolor--: rgb(231, 159, 24);
+        }
+        header>h1{
+            background-color:blue;
+            padding: 10px;
+            border-radius:0 100px 100px 0;  
+        }
+        .item1 {
+            background-color: blue;
+            height: 400px;
+            width: 300px;
+            border-radius: 20px;
+            margin: 150px auto;
+            position: relative;
+            
+        }
+        #input-all {
+            position:absolute;
+            left:10px;
+            top:50px;
+            color: white;
+        }
+        input{
+            color: white;
+            background-color: blue;
+            border:none;
+            margin: 10px 20px;
+            font-size: 15px;
+            border-bottom: 1px solid white;
+        }
+        input[type="text"],input[type="password"]{
+            width: 200px;
+        }
+        ::placeholder {
+            color: white;
+        }
+        #input-all>div>textarea{
+            background-color: blue;
+            color: white;
+            border:none;
+            border-bottom:1px solid white;
+            margin-left: 20px;
+            width: 200px;
+        }
+        .xyz {
+            margin-left: 20px;
+        }
+         button {
+            border:1px solid white;
+            background:none;
+            font-size: 20px;
+            color:white;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top:10px;
+         }
+         button:hover{
+             color:blue;
+             background-color: white;
+             box-shadow: 0 0 20px white;
+         }
+        .item1:hover{
+            box-shadow: 0 0 20px blue;
+        }
+        #logo {
+            color:yellow;
+            font-size: 50px;
+            position:absolute;
+            left:40%;
+            margin-top: -110px;
+            background-color: blue;
+            padding: 20px 25px;
+            border-radius: 100%;
+            border: 2px solid white;  
+
+        }
+          
+      
+    </style>
+</head>
+<body>
+    <header><h1>KONDAIAH&copy</h1></header>
+    <form>
+    <main>
+        <div class="item1">
+            <div id="input-all">
+                <div id="logo"><i class="fa fa-user"></i></div>
+                <div><input type="text" 
+                placeholder="Enter User Name"></div>
+                <div><input type="password" 
+                placeholder="Enter Password"></div>
+                <div><input type="password" 
+                placeholder="Enter confirm password"></div>
+                <div><label class="xyz">Description...</label></div>
+                <div><textarea name="" id="" cols="20" rows="5">   
+                </textarea></div>
+                <div><input type="checkbox"><label>I'm not a Robot</label></div>
+                <div>
+                    <div><button type="submit">signin</button><button type="submit">create</button><button type="submit">skip</button></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</form>
+</body>
+</html>
